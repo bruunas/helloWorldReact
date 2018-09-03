@@ -1,0 +1,41 @@
+@import "../../helpers/variables.sass"
+
+.btn
+    border: 0
+    background: transparent
+    border-radius: 0
+    padding: 0
+    cursor: pointer
+    text-align: center
+
+    &-sucess
+        width: 100%
+        height: 48px
+        background: $blue
+        font-size: 16px
+        line-height: 20px
+        padding: 12px 0
+        color: $light
+        transition: all 250ms linear
+
+        &:hover
+            box-shadow: -2px 2px 2px 0px rgba(42, 187, 236, 0.4)
+
+    &-link
+        border-bottom: 1px solid transparent
+        font-size: 12px
+        line-height: 20px
+        padding-bottom: 5px
+        transition: all 250ms linear
+        text-decoration: none
+        color: #333333
+
+        &:hover
+            border-color: $black
+
+    &-close-form
+        background: url('../../images/icon-close.png') no-repeat
+        width: 16px
+        height: 16px
+        float: right
+

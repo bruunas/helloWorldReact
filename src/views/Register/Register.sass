@@ -1,0 +1,41 @@
+@import "../../helpers/mixins.sass"
+    
+.Register
+    &__wrapper
+        max-width: 1200px
+        margin: 30px auto 0
+        overflow: hidden
+        overflow-x: auto
+        
+        
+    &__table
+        width: 100%
+        text-align: left
+
+
+        thead
+            th
+                text-transform: uppercase
+                font-size: 16px
+                height: 30px
+                background: #1FB0F6
+                color: #FFFFFF
+                padding: 0 16px
+
+                @include mobile
+                    padding: 16px
+
+        tbody
+            tr
+                &:nth-child(even)
+                    background: #F5F5F5
+
+            td
+                padding: 0 16px
+                font-size: 12px
+                height: 28px
+
+                @include mobile
+                    padding: 10px 16px  
+
+    
